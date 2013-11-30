@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snapandswap.ui.MenuManagerLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_menu"
+    android:layout_width="70dip"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/topmenu"
+        android:layout_width="70dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/m_rlL0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" >
+
+            <com.snapandswap.ui.RotatableImageView
+                android:id="@+id/resolution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/m_rlL1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" >
+
+            <com.snapandswap.ui.RotatableImageView
+                android:id="@+id/flashlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/m_rlL2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" >
+			
+              <com.snapandswap.ui.RotatableImageView
+                android:id="@+id/exposure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />     
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/m_rlL3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" >
+			
+            <com.snapandswap.ui.RotatableImageView
+                android:id="@+id/imgquality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />      
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/m_rlL4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" >
+                  <com.snapandswap.ui.RotatableImageView
+                android:id="@+id/settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.snapandswap.ui.MenuManagerLayout>

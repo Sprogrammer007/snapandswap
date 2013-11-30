@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceGroup xmlns:camera="http://schemas.android.com/apk/res/com.snapandswap"
+    camera:title="@string/pref_camera_settings_category" >
+
+    <IconListPreference
+        camera:defaultValue="@string/pref_camera_flashmode_default"
+        camera:entries="@array/pref_camera_flashmode_entries"
+        camera:entryValues="@array/pref_camera_flashmode_entryvalues"
+        camera:icons="@array/camera_flashmode_icons"
+        camera:key="pref_camera_flashmode_key"
+        camera:title="@string/pref_camera_flashmode_title" />
+
+    <IconListPreference
+        camera:defaultValue="@string/pref_camera_picturesize_default"
+        camera:entries="@array/pref_camera_picturesize_entries"
+        camera:entryValues="@array/pref_camera_picturesize_entryvalues"
+        camera:icons="@array/camera_picturesize_icons"
+        camera:key="pref_camera_picturesize_key"
+        camera:title="@string/pref_camera_picturesize_title" />
+    
+    <IconListPreference
+        camera:defaultValue="@string/pref_camera_imagequality_default"
+        camera:entries="@array/pref_camera_imagequality_entries"
+        camera:entryValues="@array/pref_camera_imagequality_entryvalues"
+        camera:icons="@array/camera_imagequality_icons"
+        camera:key="pref_camera_imagequality_key"
+        camera:title="@string/pref_camera_imagequality_title" />
+
+    <ListPreference
+            camera:key="pref_camera_focusmode_key"
+            camera:defaultValue="@array/pref_camera_focusmode_default_array"
+            camera:title="@string/pref_camera_focusmode_title"
+            camera:entries="@array/pref_camera_focusmode_entries"
+            camera:entryValues="@array/pref_camera_focusmode_entryvalues" />
+
+    <IconListPreference
+            camera:key="pref_camera_exposure_key"
+            camera:defaultValue="@string/pref_exposure_default"
+            camera:title="@string/pref_exposure_title"
+            camera:entries="@array/pref_camera_exposure_entires"/>
+
+    <IconListPreference
+            camera:key="pref_camera_scenemode_key"
+            camera:defaultValue="@string/pref_camera_scenemode_default"
+            camera:title="@string/pref_camera_scenemode_title"
+            camera:icons="@array/camera_scenemode_icons"
+            camera:entries="@array/pref_camera_scenemode_entries"
+            camera:entryValues="@array/pref_camera_scenemode_entryvalues" />
+
+    <IconListPreference
+            camera:key="pref_camera_whitebalance_key"
+            camera:defaultValue="@string/pref_camera_whitebalance_default"
+            camera:title="@string/pref_camera_whitebalance_title"
+            camera:icons="@array/whitebalance_icons"
+            camera:entries="@array/pref_camera_whitebalance_entries"
+            camera:entryValues="@array/pref_camera_whitebalance_entryvalues" />
+
+    <IconListPreference
+            camera:key="pref_camera_shutter_sound"
+            camera:defaultValue="@string/pref_camera_shutter_sound_default"
+            camera:title="@string/pref_camera_shutter_sound_title"
+            camera:icons="@array/shutter_sound_icons"
+            camera:entries="@array/pref_camera_shuttersound_entries"
+            camera:entryValues="@array/pref_camera_shuttersound_entryvalues" />
+
+    <IconListPreference
+            camera:key="pref_camera_focus_sound"
+            camera:defaultValue="@string/pref_camera_focus_sound_default"
+            camera:title="@string/pref_camera_focus_sound_title"
+            camera:icons="@array/focus_sound_icons"
+            camera:entries="@array/pref_camera_focussound_entries"
+            camera:entryValues="@array/pref_camera_focussound_entryvalues" />
+
+
+</PreferenceGroup>

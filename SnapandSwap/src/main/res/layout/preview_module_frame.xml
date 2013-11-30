@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1" >
+
+    <com.snapandswap.ui.PreviewFrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" >
+
+        <com.snapandswap.ui.CameraPreview
+            android:id="@+id/preview_surface_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextureView
+            android:id="@+id/texture_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <com.snapandswap.ui.RenderOverlay
+            android:id="@+id/render_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.snapandswap.ui.PreviewFrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camera</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_camera_imagequality_title">Image Quality</string>
+    <string name="pref_camera_settings_category" msgid="2576236450859613120">"Camera settings"</string>
+    <string name="pref_camera_flashmode_title" msgid="2287362477238791017">"Flash Mode"</string>
+    <string name="pref_camera_flashmode_default" translatable="false">auto</string>
+    <string name="pref_camera_flashmode_entry_auto" msgid="7288383434237457709">"Auto"</string>
+    <string name="pref_camera_flashmode_entry_on" msgid="5330043918845197616">"On"</string>
+    <string name="pref_camera_flashmode_entry_off" msgid="867242186958805761">"Off"</string>
+    <string name="pref_camera_flashmode_entry_torch" msgid="867242186958805761">"Torch"</string>
+    <string name="pref_camera_picturesize_title" msgid="4333724936665883006">"Picture Size"</string>
+    <string name="pref_camera_picturesize_entry_8mp" msgid="259953780932849079">"8M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_6mp" msgid="2882928212030661159">"6M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_5mp" msgid="741415860337400696">"5M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_3mp" msgid="1753709802245460393">"3.2M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_2mp" msgid="829109608140747258">"2.4M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_0_9mp" msgid="1669725616780375066">"0.9M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_0_7mp" msgid="806934254162981919">"0.7M Pixels"</string>
+    <string name="pref_camera_picturesize_entry_0_3mp" msgid="8576186463069770133">"0.3M Pixels"</string>
+
+    <!-- Settings screen, Image Quality mode dialog radio button choices -->
+    <string name="pref_camera_imagequality_entry_superfine">"Superfine"</string>
+    <string name="pref_camera_imagequality_entry_fine" >"Fine"</string>
+    <string name="pref_camera_imagequality_entry_normal">"Normal"</string>
+
+    <!-- Settings screen, Focus mode title -->
+    <string name="pref_camera_focusmode_title">Focus mode</string>
+
+    <!-- Settings screen, Focus mode dialog radio button choices -->
+    <string name="pref_camera_focusmode_entry_auto">Auto</string>
+    <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
+    <string name="pref_camera_focusmode_entry_macro">Macro</string>
+    
+     <!-- Default HDR entry value -->
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
+    
+    <!-- Default scene mode setting. -->
+    <string name="pref_camera_scenemode_default" translatable="false">auto</string>
+    
+    <!-- Default white balance setting. -->
+    <string name="pref_camera_whitebalance_default" translatable="false">auto</string>
+
+    <!-- Default image quality setting. -->
+    <string name="pref_camera_imagequality_default" translatable="false">2</string>
+
+    <!-- Default picture size setting. -->
+    <string name="pref_camera_picturesize_default">3264x2448</string>
+
+    <!-- The value of a camera preference indicating the setting is off. -->
+    <string name="setting_off_value" translatable="false">off</string>
+    <!-- The value of a camera preference indicating the setting is on. -->
+    <string name="setting_on_value" translatable="false">on</string>
+
+    <!-- The shutter button. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_shutter_button">Shutter button</string>
+
+    <!-- title for the dialog showing the error of camera hardware -->
+    <string name="camera_error_title">Camera error</string>
+
+    <!-- message for the dialog showing the error of camera hardware -->
+    <string name="cannot_connect_camera">Can\'t connect to the camera.</string>
+
+    <!-- message for the dialog showing the camera is disabled because of security policies. Camera cannot be used. -->
+    <string name="camera_disabled">Camera has been disabled because of security policies.</string>
+
+    <!-- Dialog "OK" button. Dismisses dialog. -->
+    <string name="dialog_ok">OK</string>
+
+    <!-- Exposure settings in preference -->
+    <string name="pref_exposure_title">Exposure</string>
+    <string name="pref_exposure_default" translatable="false">0</string>
+
+
+    <!-- Settings screen, Select Scene mode -->
+    <string name="pref_camera_scenemode_title">Scene Mode</string>
+
+    <string name="pref_camera_scenemode_entry_auto" msgid="7113995286836658648">"Auto"</string>
+    <string name="pref_camera_scenemode_entry_hdr" msgid="2923388802899511784">"HDR"</string>
+    <string name="pref_camera_scenemode_entry_action" msgid="616748587566110484">"Action"</string>
+    <string name="pref_camera_scenemode_entry_night" msgid="7606898503102476329">"Night"</string>
+    <string name="pref_camera_scenemode_entry_sunset" msgid="181661154611507212">"Sunset"</string>
+    <string name="pref_camera_scenemode_entry_party" msgid="907053529286788253">"Party"</string>
+
+    <!-- Settings screen, Select Shutter Sound mode -->
+    <string name="pref_camera_shutter_sound_title">Shutter Sound</string>
+
+    <string name="pref_camera_shutter_sound_default">on</string>
+
+    <string name="pref_camera_shutter_sound_on" >"On"</string>
+    <string name="pref_camera_shutter_sound_off" >"Off"</string>
+
+    <!-- Settings screen, Select Focus Sound mode -->
+    <string name="pref_camera_focus_sound_title">Focus Sound</string>
+
+    <string name="pref_camera_focus_sound_default">on</string>
+
+    <!-- Settings screen, WhiteBalance mode -->
+    <string name="pref_camera_whitebalance_title" msgid="677420930596673340">"White balance"</string>
+    <string name="pref_camera_whitebalance_entry_auto" msgid="6580665476983469293">"Auto"</string>
+    <string name="pref_camera_whitebalance_entry_incandescent" msgid="8856667786449549938">"Incandescent"</string>
+    <string name="pref_camera_whitebalance_entry_daylight" msgid="2534757270149561027">"Daylight"</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent" msgid="2435332872847454032">"Fluorescent"</string>
+    <string name="pref_camera_whitebalance_entry_cloudy" msgid="3531996716997959326">"Cloudy"</string>
+
+
+</resources>

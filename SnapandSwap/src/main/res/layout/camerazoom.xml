@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.snapandswap.ui.SeekBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/zoomLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <com.snapandswap.ui.RotatableImageView
+        android:id="@+id/zoomIconTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+         android:layout_centerHorizontal="true"
+        android:src="@drawable/camera_mode_resolution_0_3m_nor" />
+    
+    <View style="@style/ZoomBarBGStyle" />
+
+    <com.snapandswap.ui.VerticalSeekBar
+        android:id="@+id/seekBar"
+        style="@style/ZoomBarStyle"
+        android:layout_centerInParent="true"
+        android:thumb="@drawable/camera_mode_button" />
+
+    <com.snapandswap.ui.RotatableImageView
+        android:id="@+id/zoomIconBot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar" 
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/camera_mode_resolution_8m_nor"/>
+
+</com.snapandswap.ui.SeekBarLayout>
